@@ -139,6 +139,15 @@ a:hover::after{
 	float:left;
 	
 }
+.row1b{
+	margin-left: 280px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+	display: inline-block;
+	float:left;
+	
+}
 
 .col3{
 	float:left;
@@ -324,6 +333,7 @@ footer{
 
 .menu{
 	display: block;
+	padding-left: 130px;
 }
 .header{
 	width:150%;
@@ -342,11 +352,11 @@ footer{
 	.nav{
 		margin-top: 50px;
 		margin-bottom: 100px;
-		width: 100%;
+		width: 100px;
 		position: absolute;
 		right: 0;
 		background: #333;
-		overflow: hidden;
+		overflow: scroll;
 		transition: max-height 0.5s;
 	}
 	.col1{
@@ -378,7 +388,17 @@ footer{
 
 
 .row1{
-	margin-left: 40px;
+	margin-left: 70px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+	display: inline-block;
+	float:left;
+	
+}
+.row1b{
+
+	margin-left: 20px;
 	margin-right: 100px;
 	margin-bottom: 100px;
 	width: 100%;
@@ -403,7 +423,7 @@ footer{
 
 .row1a{
 	margin-top: 40px;
-	margin-left: 50px;
+	margin-left: 70px;
 	margin-right: 100px;
 	width: 100%;
 	display: ;inline-block
