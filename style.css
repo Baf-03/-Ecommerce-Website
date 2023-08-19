@@ -133,7 +133,7 @@ body{
 
 a{
     text-decoration: none;
-    
+
 }
 .third_section_images img{
     width: 20vw;
@@ -161,6 +161,8 @@ a{
 }
 /* -------------------------------------------------------fifth div----------------------------- */
 .fifth_section{
+    width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     margin-top: 100px;
@@ -332,6 +334,7 @@ footer{
         height: 28vh;
     }
     .fifth_section{
+        background-color: black;
         height: 40vh;
     }
     .fifth_section img{
@@ -466,9 +469,11 @@ footer{
     }
    
     .fifth_section{
+        background-color: black;
         padding: 50px 0;
         font-size: 0.8rem;
         height: 100%;
+        overflow-x: hidden;
     }
     .clock_img{
         width: 30%;
@@ -482,7 +487,7 @@ footer{
         width: 60%;
     }
     .fifth_section_para_side p{
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .box{
