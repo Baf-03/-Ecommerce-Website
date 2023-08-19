@@ -14,6 +14,9 @@ body{
     /* background-color: black; */
     align-items: center;
 }
+.bars{
+    display: none;
+}
 .logo{
     width: 40%;
     height: 100%;
