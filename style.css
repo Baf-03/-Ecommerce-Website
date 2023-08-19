@@ -24,9 +24,13 @@ body{
     display: flex;
    gap: 30px;
    flex-wrap: wrap;
+   padding-bottom: 10px;
 }
 .nav_elements li{
     list-style: none;
+}
+.bars{
+    display: none;
 }
 .firstsection{
     background: linear-gradient(45deg, #fff, #ffd6d6);
