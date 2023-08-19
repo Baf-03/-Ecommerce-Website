@@ -303,9 +303,7 @@ footer{
 }
 
 @media  (max-width: 1700px)and (min-height: 1201px) {
-    .nav_elements{
-        display: none;
-    }
+    
     .firstsection{
         padding-top: 16%;
         padding-bottom: 16%;
@@ -366,8 +364,44 @@ footer{
   }
   @media  (max-width: 1280px)and (max-height: 1200px) {
     .nav_elements{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        /* padding-right: 20px; */
+        position: absolute;
+        top:70px;
+        left: 0px;
+        background: palegoldenrod;
+        overflow: hidden;
+        transition: max-height 0.5s;
+     
     }
+    .my_element {
+        background: linear-gradient(
+          50deg,
+          rgba(255, 255, 255, 0.4) 12%,
+          rgba(255, 255, 255, 0.1) 77%
+        );
+        background-blend-mode: ;
+        box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+      .navbar{
+        display: flex;
+        justify-content: space-between;
+      }
+    .bars{
+        display: block;
+        padding-right: 30px;
+        cursor: pointer;
+    }
+    .nav_elements li{
+        padding-right: 30px;
+    }
+   
     .firstsection{
         padding-top: 16%;
         padding-bottom: 16%;
@@ -429,8 +463,43 @@ footer{
 
 
   @media  (max-width: 450px){
-    .nav_elements{
+    /* .nav_elements{
         display: none;
+    } */
+       .nav_elements{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        /* padding-right: 20px; */
+        position: absolute;
+        top:70px;
+        left: 0px;
+        background: palegoldenrod;
+        overflow: hidden;
+        transition: max-height 0.5s;
+     
+    }
+   
+    .my_element {
+        background: linear-gradient(
+          50deg,
+          rgba(255, 255, 255, 0.4) 12%,
+          rgba(255, 255, 255, 0.1) 77%
+        );
+        background-blend-mode: ;
+        box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+    .bars{
+        display: block;
+        padding-right: 30px;
+        cursor: pointer;
+    }
+    .nav_elements li{
+        padding-right: 30px;
     }
     .firstsection{
         padding-top: 16%;
@@ -438,6 +507,7 @@ footer{
         height: 100%;
         min-height: 100%;
     }
+  
     .first_section_img_side{
         display: none;
     }
@@ -504,9 +574,5 @@ footer{
     .btn{
         width: 50%;
         padding:20px;
-        
     }
-
-    
- 
   }
