@@ -15,6 +15,7 @@
     let menu_bar =document.querySelector(".bars svg");
     let navelements =document.querySelector(".nav_elements");
     navelements.style.maxHeight = "0";
+    navelements.style.width = "0%";
 
     menu_bar.addEventListener("click",(e)=>{
         menutoggle();
@@ -24,9 +25,12 @@
        
         if(navelements.style.maxHeight=="0px"){
             navelements.style.maxHeight="100%";
+            navelements.style.width = "100%";
         }
         else{
+           
             navelements.style.maxHeight="0px";
+            navelements.style.width = "0%";
         }
     }
 
