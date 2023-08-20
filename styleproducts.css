@@ -234,6 +234,9 @@ footer{
         transition: max-height 0.5s;
      
     }
+    .hidden {
+        display: none;
+    }
     .my_element {
         background: linear-gradient(
           50deg,
@@ -295,9 +298,6 @@ footer{
 }
 
 @media  (max-width: 450px){
-    /* .nav_elements{
-        display: none;
-    } */
     .nav_elements{
         display: flex;
         flex-direction: column;
@@ -308,11 +308,15 @@ footer{
         position: absolute;
         top:70px;
         left: 0px;
-        /* background: palegoldenrod; */
+        background: palegoldenrod;
         overflow: hidden;
         transition: max-height 0.5s;
      
     }
+    .hidden {
+        display: none;
+    }
+   
     .my_element {
         background: linear-gradient(
           50deg,
