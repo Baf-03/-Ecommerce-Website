@@ -397,6 +397,9 @@ footer{
         display: flex;
         justify-content: space-between;
       }
+      .hidden {
+        display: none;
+    }
     .bars{
         display: block;
         padding-right: 30px;
