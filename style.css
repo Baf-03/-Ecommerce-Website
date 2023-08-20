@@ -488,6 +488,9 @@ footer{
         transition: max-height 0.5s;
      
     }
+    .hidden {
+        display: none;
+    }
    
     .my_element {
         background: linear-gradient(
